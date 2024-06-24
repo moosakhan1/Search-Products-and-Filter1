@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Products and Filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidehead">
+                <div class="dots">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle" style="color: #333;"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <hr style="margin: 15px; border: 1px solid #eee;">
+            </div>
+            <div class="sidebody" style="height: 69vh;">
+                <div class="searchbar">
+                    <input type="text" placeholder="Search" id="searchbar" name="searchbar">
+                    <i class="fa-solid fa-magnifying-glass glass"></i>
+                </div>
+            </div>
+            <div class="sidefoot">
+                <hr style="margin: 15px 0; border: 1px solid #eee;">
+                <div class="social-icons">
+                   <a target="_blank" href="https://www.facebook.com/"> <i  class="fa-brands fa-square-facebook"></i></a>
+                   <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                   <a target="_blank" href="https://github.com/moosakhan1/"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="data">
+            <div class="top">
+                <p>+12345678900</p>
+                <p>moosakhan@gmail.com</p>
+            </div>
+            <div class="header">
+                <p>BUY EVERYTHING ONLINE</p>
+            </div>
+            <div class="body">
+                <div id="root"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
